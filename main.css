@@ -1,0 +1,118 @@
+body { 
+    font: 15px/2 Calibri, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: darkred;
+    }
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    }
+
+header{
+    background: firebrick;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff00 8px solid;
+}
+
+header a{
+    color:#fff;
+    text-decoration: none;   
+}
+
+ul{
+    margin:0
+    padding:0;
+}
+
+.button_1{
+    height: 38px;
+    background: darkorange;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+    font-size:;
+    height: 30px;
+    width: auto;
+}
+
+header nav{
+    float: right;
+    margin-top: 0;
+    
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: deepskyblue;
+    font-weight:bolder;
+    font-size: 17px;
+}
+
+#midpage{
+    min-height: 400px;
+    background:url('../Picture%20colection/20180626_105451.jpg') no-repeat 0 -625px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 200%;
+    padding: 30px 16;   
+}
+
+#midpage h1{
+    font-size: 50px;
+    margin-top: 100px;
+    color: darkorange;
+}
+
+#midpage p{
+    font-size: 25px
+}
+
+footer {
+    background-color: darkorange;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 50px 50px 10px 50px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background: darkred;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 17px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 30px;
+    width: 250px;
+}
